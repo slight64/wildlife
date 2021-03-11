@@ -62,33 +62,43 @@
 </div>
 <main class="main">
   <div class="containter main-container">
-    <h2 class="main-title">
+    <section class="section-news">
+      <h2 class="main-title">
       Latest articles
     </h2>
-    <p class="main-text">
-      Breaking news from the wild
-    </p>
-    <div class="main-sections-wrapper">
-      <div class="section-item deer">
-        <h3 class="section-item__title">Deer</h3>
-        <p class="section-item__text">Naturalist investigation</p>
+      <p class="main-text">
+        Breaking news from the wild
+      </p>
+      <div class="main-sections-wrapper">
+        <button class="main-section-left-btn news-btn">
+          <img src="img/Vector.svg" alt="">
+        </button>
+        <div class="section-item deer">
+          <h3 class="section-item__title">Deer</h3>
+          <p class="section-item__text">Naturalist investigation</p>
+        </div>
+        <div class="section-item squirrel">
+          <h3 class="section-item__title">Squirrel</h3>
+          <p class="section-item__text">Kamikaze squirrels</p>
+        </div>
+        <div class="section-item bird">
+          <h3 class="section-item__title">Bird</h3>
+          <p class="section-item__text">Birds Fight club</p>
+        </div>
+        <button class="main-section-right-btn news-btn">
+          <img src="img/right-arrow.svg" alt="">
+        </button>
       </div>
-      <div class="section-item squirrel">
-        <h3 class="section-item__title">Squirrel</h3>
-        <p class="section-item__text">Kamikaze squirrels</p>
-      </div>
-      <div class="section-item bird">
-        <h3 class="section-item__title">Bird</h3>
-        <p class="section-item__text">Birds Fight club</p>
-      </div>
-    </div>
-    <div class="main-subscription">
+    </section>
+    <section class="main-subscription">
       <p class="subscription-text">Get notified about new amazing articles</p>
       <div class="subsription-form-wrapper">
-        <input type="email" placeholder="Email">
-        <button class="subsription-send btn"></button>
+        <form class="subsription-form" action="#">
+          <input class="subsription-input" type="email" placeholder="email">
+          <input class="subsription-send btn" type="submit" value="send">
+        </form>
       </div>
-    </div>
+    </section>
   </div>
 </main>
 <footer class="footer">

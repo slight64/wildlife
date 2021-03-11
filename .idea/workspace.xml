@@ -24,7 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d7c6f89-1ab2-4431-b3ed-85ff7d0cd32e" name="Default Changelist" comment="">
+    <list default="true" id="0d7c6f89-1ab2-4431-b3ed-85ff7d0cd32e" name="Default Changelist" comment="feat: complete header styles&#10;feat: stat create main styles&#10;fix: create wrap for header block&#10;fix: change some img file to svg code in html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -72,7 +72,19 @@
       <workItem from="1615188941075" duration="789000" />
       <workItem from="1615221505831" duration="7165000" />
       <workItem from="1615401540511" duration="7782000" />
+      <workItem from="1615443229579" duration="179000" />
+      <workItem from="1615472627243" duration="5677000" />
+      <workItem from="1615487617341" duration="973000" />
+      <workItem from="1615491443888" duration="4786000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: complete header styles&#10;feat: stat create main styles&#10;fix: create wrap for header block&#10;fix: change some img file to svg code in html">
+      <created>1615443403850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615443403850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +102,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: complete header styles&#10;feat: stat create main styles&#10;fix: create wrap for header block&#10;fix: change some img file to svg code in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: complete header styles&#10;feat: stat create main styles&#10;fix: create wrap for header block&#10;fix: change some img file to svg code in html" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2505" y="154" width="749" height="917" key="CommitChangelistDialog2" timestamp="1615472639910">
+      <screen x="1920" y="6" width="1920" height="1160" />
+    </state>
+    <state x="2505" y="154" width="749" height="917" key="CommitChangelistDialog2/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615472639910" />
+    <state x="2104" y="178" key="DiffContextDialog" timestamp="1615443315558">
+      <screen x="1920" y="6" width="1920" height="1160" />
+    </state>
+    <state x="2104" y="178" key="DiffContextDialog/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615443315558" />
     <state x="2660" y="342" key="FileChooserDialogImpl" timestamp="1615228408314">
       <screen x="1920" y="6" width="1920" height="1160" />
     </state>
@@ -99,6 +123,10 @@
       <screen x="1920" y="6" width="1920" height="1160" />
     </state>
     <state x="2381" y="231" key="SettingsEditor/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615188931673" />
+    <state x="2472" y="319" key="Vcs.Push.Dialog.v2" timestamp="1615443404558">
+      <screen x="1920" y="6" width="1920" height="1160" />
+    </state>
+    <state x="2472" y="319" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615443404558" />
     <state x="2484" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615407472483">
       <screen x="1920" y="6" width="1920" height="1160" />
     </state>
