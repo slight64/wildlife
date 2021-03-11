@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7c6f89-1ab2-4431-b3ed-85ff7d0cd32e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +70,38 @@
       <workItem from="1615146721203" duration="3398000" />
       <workItem from="1615187219794" duration="1711000" />
       <workItem from="1615188941075" duration="789000" />
-      <workItem from="1615221505831" duration="250000" />
+      <workItem from="1615221505831" duration="7165000" />
+      <workItem from="1615401540511" duration="7782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2660" y="342" key="FileChooserDialogImpl" timestamp="1615228408314">
+      <screen x="1920" y="6" width="1920" height="1160" />
+    </state>
+    <state x="2660" y="342" key="FileChooserDialogImpl/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615228408314" />
     <state x="2381" y="231" key="SettingsEditor" timestamp="1615188931673">
       <screen x="1920" y="6" width="1920" height="1160" />
     </state>
     <state x="2381" y="231" key="SettingsEditor/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615188931673" />
+    <state x="2484" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615407472483">
+      <screen x="1920" y="6" width="1920" height="1160" />
+    </state>
+    <state x="2484" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.6.1920.1160@1920.6.1920.1160" timestamp="1615407472483" />
   </component>
 </project>

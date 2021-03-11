@@ -1,0 +1,250 @@
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* HEADER */
+.containter {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    color: #f7f7f7;
+    background-image: url("../img/header-background.png");
+    background-repeat: no-repeat;
+}
+.header-top-wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-logo-wrapper {
+    align-items: center;
+    display: flex;
+
+}
+.header-logo__img { }
+.logo-text {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+
+
+}
+.navigation-wrapper {
+    display: flex;
+
+}
+.navigation {
+    align-items: center;
+
+    display: flex;
+    font-size: 23px;
+    line-height: 60px;
+    font-weight: 400;
+
+}
+.navigation-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+
+}
+.navigation--item {
+    margin-left: 62px;
+
+
+}
+.blog { }
+.contacts { }
+.navigation__search {
+
+
+}
+.navigation__search-svg {
+display: block;
+}
+.header-sing-in {
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-left: 60px;
+
+    line-height: 46px;
+    color: #f7f7f7;
+    font-size: 23px;
+    font-weight: 400;
+
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+
+}
+.header-title-wrapper {
+    margin-top: 120px;
+}
+.header-title {
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 72px;
+    color: #CD6326;
+}
+.header-title__text {
+    margin-top: 51px;
+    width: 273px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.header-title__donate-btn {
+    margin-top: 48px;
+    margin-bottom: 240px;
+    padding: 17px 43px;
+
+    line-height: 27px;
+    color: #f7f7f7;
+    font-size: 22px;
+    font-weight: 400;
+
+    background-color: #CD6326;
+    border-radius: 5px;
+
+
+}
+
+.btn {
+
+}
+
+/* MAIN */
+.main {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #CCCCCC;
+}
+.main-container {
+
+}
+.main-title {
+    font-weight: 400;
+    padding-top: 121px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+.main-text {
+    margin-top: 19px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+.main-sections-wrapper {
+    display: flex;
+}
+.section-item { }
+.deer { }
+.section-item__title { }
+.section-item__text { }
+.squirrel { }
+.bird { }
+.main-subscription { }
+.subscription-text { }
+.subsription-form-wrapper { }
+.subsription-send { }
+.footer { }
+.footer-wrapper { }
+.footer-logo { }
+.footer-info { }
+.footer-info__item { }
+.footer-socials { }
+.footer-socials__item { }
