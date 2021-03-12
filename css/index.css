@@ -87,7 +87,7 @@ button {
     margin: 0 auto;
     max-width: 1200px;
 }
-.header {
+.header-wrapper {
     max-width: 1440px;
     margin: 0 auto;
 
@@ -103,12 +103,13 @@ button {
     align-items: center;
 
 }
-.header-logo-wrapper {
+.logo {
     align-items: center;
     display: flex;
-
 }
+
 .header-logo__img { }
+
 .logo-text {
     margin-left: 15px;
     font-family: 'Roboto', sans-serif;
@@ -116,6 +117,7 @@ button {
     font-weight: 400;
     font-size: 32px;
     line-height: 60px;
+    color: #f7f7f7;
 
 
 }
@@ -230,9 +232,10 @@ display: block;
 }
 
 .main-sections-wrapper {
-    margin-top: 120px;
+    margin-top: 121px;
     display: flex;
     justify-content: space-between;
+    margin-left: 3px;
 }
 .section-item {
     display: flex;
@@ -266,7 +269,7 @@ display: block;
 
 }
 .main-subscription {
-    margin-top: 239px;
+    margin-top: 240px;
     padding-bottom: 240px;
 }
 .subscription-text {
@@ -287,13 +290,17 @@ display: block;
 }
 
 .subsription-input {
-    width: 540px;
-    height: 61px;
+    width: 542px;
+    height: 62px;
     border: 1px solid #666666;
     border-radius: 1px 0 0 1px;
     background-color: #CCCCCC;
+    padding-top: 8px;
+    padding-left: 1px;
+
 }
 .subsription-input::placeholder{
+
     text-transform: capitalize;
     font-size: 23px;
     line-height: 27px;
@@ -313,19 +320,49 @@ display: block;
     background-color: #CD6326;
     border-radius: 0 5px 5px 0;
     border: none;
+    cursor: pointer;
 }
 
 .footer {
     width: 1440px;
-    margin: 0 auto; }
-.footer-wrapper {
+    height: 360px;
+    margin: 0 auto;
     background-image: url( ../img/footer-bacground.jpg) ;
     background-repeat: no-repeat;
 
-    margin: 0 auto;
+}
+
+.footer-wrapper {
+    padding-top: 148px;
+    padding-bottom: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F7F7F7;
+
 }
 .footer-logo { }
-.footer-info { }
-.footer-info__item { }
-.footer-socials { }
-.footer-socials__item { }
+.footer-info {
+    width: 480px;
+padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.footer-info__item {
+    font-size: 23px;
+    line-height: 60px;
+}
+.footer-socials {
+    width: 240px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.footer-socials__item {
+    align-items: center;
+
+
+}
