@@ -54,7 +54,6 @@ ol[class] {
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
-
 /* Упрощаем работу с изображениями */
 img {
     max-width: 100%;
@@ -94,22 +93,17 @@ button {
     color: #f7f7f7;
     background-image: url("../img/header-background.png");
     background-repeat: no-repeat;
-
 }
 .header-top-wrapper {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .logo {
     align-items: center;
     display: flex;
 }
-
-.header-logo__img { }
-
 .logo-text {
     margin-left: 15px;
     font-family: 'Roboto', sans-serif;
@@ -118,12 +112,9 @@ button {
     font-size: 32px;
     line-height: 60px;
     color: #f7f7f7;
-
-
 }
 .navigation-wrapper {
     display: flex;
-
 }
 .navigation {
     align-items: center;
@@ -132,25 +123,14 @@ button {
     font-size: 23px;
     line-height: 60px;
     font-weight: 400;
-
 }
 .navigation-items {
     list-style: none;
     display: flex;
     align-items: center;
-
-
 }
 .navigation--item {
     margin-left: 62px;
-
-
-}
-.blog { }
-.contacts { }
-.navigation__search {
-
-
 }
 .navigation__search-svg {
 display: block;
@@ -167,7 +147,6 @@ display: block;
 
     border: 2px solid #CD6326;
     border-radius: 5px;
-
 }
 .header-title-wrapper {
     margin-top: 120px;
@@ -198,12 +177,6 @@ display: block;
 
     background-color: #CD6326;
     border-radius: 5px;
-
-
-}
-
-.btn {
-
 }
 
 /* MAIN */
@@ -266,7 +239,6 @@ display: block;
 }
 .bird {
     background-image: url(../img/bird.jpg);
-
 }
 .main-subscription {
     margin-top: 240px;
@@ -278,7 +250,6 @@ display: block;
     line-height: 40px;
     color: #333333;
 }
-
 
 .subsription-form-wrapper {
     margin-top: 59px;
@@ -297,7 +268,6 @@ display: block;
     background-color: #CCCCCC;
     padding-top: 8px;
     padding-left: 1px;
-
 }
 .subsription-input::placeholder{
 
@@ -305,7 +275,6 @@ display: block;
     font-size: 23px;
     line-height: 27px;
     padding-left: 15px;
-
 }
 .subsription-send {
     padding-top: 16px;
@@ -329,7 +298,6 @@ display: block;
     margin: 0 auto;
     background-image: url( ../img/footer-bacground.jpg) ;
     background-repeat: no-repeat;
-
 }
 
 .footer-wrapper {
@@ -339,16 +307,12 @@ display: block;
     justify-content: space-between;
     align-items: center;
     color: #F7F7F7;
-
 }
-.footer-logo { }
 .footer-info {
     width: 480px;
-padding-right: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
-
-
 }
 .footer-info__item {
     font-size: 23px;
@@ -363,6 +327,4 @@ padding-right: 10px;
 }
 .footer-socials__item {
     align-items: center;
-
-
 }
