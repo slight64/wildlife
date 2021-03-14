@@ -60,10 +60,6 @@ img {
     display: block;
 }
 
-/* Указываем понятную периодичность в потоке данных у article*/
-article > * + * {
-    margin-top: 1em;
-}
 
 /* Наследуем шрифты для инпутов и кнопок */
 input,
@@ -85,14 +81,14 @@ button {
     cursor: pointer;
 }
 /* HEADER */
-.containter {
+.container {
     margin: 0 auto;
     max-width: 1200px;
 }
 .header-wrapper {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
-
+    background-color: #02160b;
     color: #f7f7f7;
     background-image: url("../img/header-background.png");
     background-repeat: no-repeat;
@@ -126,8 +122,10 @@ button {
     font-size: 23px;
     line-height: 60px;
     font-weight: 400;
+
 }
 .navigation-items {
+
     list-style: none;
     display: flex;
     align-items: center;
@@ -142,7 +140,17 @@ button {
 .navigation__search-svg {
     display: block;
 }
-
+.navigation__search-svg:hover {
+    stroke: #CD6326;
+    fill: #CD6326;
+}
+.nav-link {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #CD6326;
+}
 .header-sing-in {
     padding-right: 22px;
     padding-left: 22px;
@@ -169,6 +177,7 @@ button {
 }
 .header-title-wrapper {
     margin-top: 120px;
+    padding-bottom: 240px;
 }
 .header-title {
     font-weight: 400;
@@ -176,6 +185,7 @@ button {
     letter-spacing: 2px;
     line-height: 72px;
     color: #CD6326;
+
 }
 .header-title__text {
     margin-top: 51px;
@@ -186,7 +196,6 @@ button {
 }
 .header-title__donate-btn {
     margin-top: 48px;
-    margin-bottom: 240px;
     padding: 17px 43px;
 
     line-height: 27px;
@@ -280,35 +289,38 @@ button {
     color: #333333;
 }
 
-.subsription-form-wrapper {
+.subscription-form-wrapper {
     margin-top: 59px;
 }
-.subsription-form {
+.subscription-form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.subsription-input {
+.subscription-input {
     width: 542px;
     height: 62px;
     border: 1px solid #666666;
     border-radius: 1px 0 0 1px;
     background-color: #CCCCCC;
     padding-top: 8px;
-    padding-left: 1px;
+    padding-left: 16px;
+    border-right: none;
 }
-.subsription-input::placeholder{
+.subscription-input::placeholder {
     text-transform: capitalize;
     font-size: 23px;
     line-height: 27px;
-    padding-left: 15px;
 }
-.subsription-send {
-    padding-top: 16px;
-    padding-bottom: 17px;
-    padding-left: 34px;
-    padding-right: 34px;
+.subscription-input:-ms-input-placeholder {
+    text-transform: capitalize;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.subscription-send {
+    padding: 17px 34px;
     line-height: 28px;
     color: #f7f7f7;
     font-size: 23px;
@@ -319,11 +331,11 @@ button {
     border: none;
     cursor: pointer;
 }
-.subsription-send:hover {
+.subscription-send:hover {
     background-color: #E39128;
     outline: none;
 }
-.subsription-send:active {
+.subscription-send:active {
     background-color: #8F5613;
     outline: none;
 }
@@ -331,6 +343,7 @@ button {
     width: 1440px;
     height: 360px;
     margin: 0 auto;
+    background-color: #181617;
     background-image: url( ../img/footer-bacground.jpg) ;
     background-repeat: no-repeat;
 }
@@ -366,7 +379,7 @@ button {
     width: 240px;
     justify-content: space-between;
     display: flex;
-    align-items: center;
+
 }
 .footer-socials-wrapper {
     padding-left: 120px;
